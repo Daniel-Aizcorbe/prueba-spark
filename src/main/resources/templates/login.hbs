@@ -1,1 +1,24 @@
-<h1>LOGIN</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - World of Wargoon</title>
+    <link rel="stylesheet" href="./login.css" />
+
+</head>
+<body>
+    <div class="container-login">
+        <h2>Iniciar Sesión</h2>
+        <form action="/login" method="POST">
+            <input type="text" name="user" placeholder="Usuario"/>
+            <input type="password" name="password" placeholder="Contraseña" />
+            <a href="/recuperacion-cuenta" class="link-recup-cuenta">
+                ¿Olvidaste tu contraseña?
+            </a>
+            <button class="btn-ingresar">Ingresar</button>
+        </form>
+    </div>
+</body>
+</html>

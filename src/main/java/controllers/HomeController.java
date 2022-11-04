@@ -11,6 +11,7 @@ public class HomeController {
   }
 
   public ModelAndView getHomeLogged(Request request, Response response) {
+
     return new ModelAndView("233","home-logged.hbs");
   }
 }
